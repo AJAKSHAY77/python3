@@ -15,6 +15,7 @@ lapo = "aditya, jain, is"
 
 # print(lapo.split(","))
 # print(len(lapo))
+
 for letter in lapo:
     print(letter)
     
