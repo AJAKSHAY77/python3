@@ -26,4 +26,26 @@ print(my_dist)
 
 # my_dist.pop("name1")
 # print(my_dist)
-  
+
+my_dist.popitem()
+print(my_dist)
+
+# my_dist.pop()
+# print(my_dist)
+
+del my_dist["name1"]
+print(my_dist) 
+
+my_dist["name1"]="akshay"
+print(my_dist)
+
+my_print_copy = my_dist.copy()
+print(my_print_copy)
+
+my_dist["name4"]="om"
+print(my_dist)
+print(my_print_copy)
+
+
+del my_dist["name1"]
+print(my_dist)
