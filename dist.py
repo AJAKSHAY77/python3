@@ -49,3 +49,4 @@ print(my_print_copy)
 
 del my_dist["name1"]
 print(my_dist)
+print(my_dist)
